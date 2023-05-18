@@ -1,0 +1,130 @@
+.navbar {
+  height: 60px;
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  box-shadow: 0 5px 10px black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  background: yellowgreen;
+}
+
+.navbar .Build_post_form {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  align-items: center;
+  height: 300px;
+}
+
+.navbar .Build_post_form .Input_box {
+  width: 90%;
+  height: 33px;
+  margin-bottom: 20px;
+}
+
+.navbar .Build_post_form .Input_box input {
+  width: 100%;
+  height: 100%;
+  border: 1px solid lightgrey;
+  padding: 5px;
+  outline: none;
+}
+
+.navbar .Build_post_form .Input_box textarea {
+  width: 100%;
+  height: 200px;
+  resize: none;
+  border: 1px solid lightgrey;
+  padding: 5px;
+  outline: none;
+}
+
+.navbar .Build_post_form .Buttons button {
+  width: 100px;
+  height: 33px;
+  margin-right: 10px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.navbar .Build_post_form .Buttons .for_cancel_button {
+  background-color: blue;
+}
+
+.navbar .Build_post_form .Buttons .for_post_button {
+  background-color: #026aab;
+}
+
+.navbar .Logo {
+  cursor: pointer;
+}
+
+.navbar .Logo img {
+  width: 200px;
+}
+
+.navbar .search_input {
+  height: 30px;
+  width: 268px;
+  padding: 3px 16px 3px 16px;
+  min-height: auto;
+  min-width: auto;
+  background-color: #efefef;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar .search_input input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  line-height: 18px;
+  font-size: 14px;
+  width: 90%;
+}
+
+.navbar .Icons {
+  display: flex;
+  align-items: center;
+  width: 180px;
+  justify-content: space-evenly;
+  height: 40px;
+}
+
+.navbar .Icons .Icon {
+  width: 32px;
+  height: 33px;
+  cursor: pointer;
+}
+
+.navbar .Icons .Icon img {
+  width: 30px;
+  height: 30px;
+}
+
+.Menu1 {
+  position: relative;
+  bottom: -8px;
+  display: block;
+  background: #fff;
+  width: 100px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+.Menu1 .MenuElement {
+  height: 20px;
+  color: gray;
+  border-bottom: 1px solid lightgray;
+  padding: 10px;
+}
